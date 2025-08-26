@@ -43,6 +43,7 @@
   "[php]": {
     "editor.defaultFormatter": "open-southeners.laravel-pint"
   },
+  "terminal.integrated.inheritEnv": false,
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Propo",
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#ffffff"
@@ -81,5 +82,7 @@
     "editor.defaultFormatter": "shufo.vscode-blade-formatter"
   },
   "diffEditor.ignoreTrimWhitespace": false,
-  "github.copilot.nextEditSuggestions.enabled": true
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "php.suggest.basic": false,
+  "terminal.integrated.suggest.enabled": true
 }
